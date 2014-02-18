@@ -42,6 +42,12 @@ quotes[18]='Ja, Fucking taai.'
 
 quotes[19]='Ja, taaier dan squats zonder gewichten.<i>-Lucas Twisk</i>'
 
+quotes[20]='Taaier dan een infinite afveeg-drol.'
+
+quotes[21]='libi + libi = letterlijk kanker'
+
+quotes[22]='Taaier dan een droge boterham.'
+
 
 
 
