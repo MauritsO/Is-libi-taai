@@ -24,7 +24,7 @@ quotes[9]='Jeppers.'
 
 quotes[10]='Uhu :3'
 
-quotes[11]='Taaier dan een penis tussen je billen. <i>-Banno Postma</i>'
+quotes[11]='Taaier dan een penisu tussen je billen. <i>-Banno Postma</i>'
 
 quotes[12]='Ja.'
 
@@ -48,10 +48,13 @@ quotes[21]='libi + libi = letterlijk kanker'
 
 quotes[22]='Taaier dan een droge boterham.'
 
+quotes[23]='Taaier dan een steak die een dag in de pan heeft gelegen.'
 
+var whichquote=Math.floor(Math.random()*(quotes.length));
+document.write('<a id="texts" onClick="javascript:changeQuote()">' + quotes[whichquote] + '</a>');
 
-
-
-
-var whichquote=Math.floor(Math.random()*(quotes.length))
-document.write(quotes[whichquote])
+function changeQuote(){
+	var whichquote=Math.floor(Math.random()*(quotes.length));
+	var anchor = document.getElementById('texts');
+	anchor.innerHTML= quotes[whichquote];
+}
