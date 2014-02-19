@@ -1,7 +1,7 @@
 /* style voor islibitaai.nl */
 
 body{
-	background-color: #CDDCEE
+	background-color: #CDDCEE;
 }
 
 #quotes{
@@ -34,7 +34,9 @@ body{
 
 #footer{
 	font-family: ff-enzo-web, helvetica, sans-serif;
-	float : right;
-	display:inline-block;
-	padding-top: 20%;
+	position:absolute;
+	text-align:right;
+   bottom:0;
+   width:99%;
+   height:60px;   /* Height of the footer */
 }

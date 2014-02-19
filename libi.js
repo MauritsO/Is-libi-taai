@@ -50,6 +50,13 @@ quotes[22]='Taaier dan een droge boterham.'
 
 quotes[23]='Taaier dan een steak die een dag in de pan heeft gelegen.'
 
+quotes[24]='Zijn negers zwart?'
+
+quotes[25]='Taaier dan met je sokken in een plas water stappen.'
+
+quotes[26]='Taaier dan een accidental boner als je bij je schoonmoeder op schoot zit.'
+
+
 var whichquote=Math.floor(Math.random()*(quotes.length));
 document.write('<a id="texts" onClick="javascript:changeQuote()">' + quotes[whichquote] + '</a>');
 
