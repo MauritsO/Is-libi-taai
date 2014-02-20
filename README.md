@@ -1,4 +1,4 @@
-Is-libi-taai
+Is libi taai
 ============
 
-Is Libi Taai?
+De eeuwen oude vraag waar iedereen wel eens over nadenkt; Is het leven nou echt zwaar?
