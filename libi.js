@@ -56,6 +56,10 @@ quotes[25]='Taaier dan met je sokken in een plas water stappen.'
 
 quotes[26]='Taaier dan een accidental boner als je bij je schoonmoeder op schoot zit.'
 
+quotes[27]='Zo taai als kauwen op een dreadlock.'
+
+quotes[28]='Zo taai als het bijten op je tong tijdens het eten.'
+
 
 var whichquote=Math.floor(Math.random()*(quotes.length));
 document.write('<a id="texts" onClick="javascript:changeQuote()">' + quotes[whichquote] + '</a>');
