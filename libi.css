@@ -37,7 +37,7 @@ body{
 	position:absolute;
 	text-align:right;
   	bottom:0;
-  	width:100%;
+  	width:99%;
   	margin: 2px;
   	height:60px;   /* Height of the footer */
 }

@@ -63,9 +63,9 @@
 
 	$( "#quotes" ).click(function() {
 	var whichquote=Math.floor(Math.random()*(quotes.length));
-	  $( "#texts" ).fadeOut(800, function() {
+	  $( "#texts" ).fadeOut(300, function() {
 	    $( "#texts" ).html(quotes[whichquote]);
-	    $( "#texts" ).fadeIn(800);
+	    $( "#texts" ).fadeIn(300);
 	  });
 	});
 
