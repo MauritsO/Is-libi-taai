@@ -42,3 +42,15 @@ body{
   	height:60px;   /* Height of the footer */
 }
 
+#progressBar {
+	border-radius: 4px;
+	background: #FFF;
+	border: 1px solid #AAA;
+	overflow: hidden;
+	color: white;		
+}
+#progressBar div {
+	background-image: url(images/pbar-ani.gif);
+	border-right: 1px solid #AAA;
+}
+
